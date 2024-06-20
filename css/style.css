@@ -1,0 +1,66 @@
+.layui-nav a {
+    color: #000 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.layui-nav .layui-nav-item {
+    height: 100%;
+    /* margin: 0 10px; */
+}
+
+.layui-nav .layui-nav-item>a {
+    /* height: 100%; */
+    line-height: 100px;
+    padding: 0 28px;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+.earch {
+    background-color: #f1f1f1;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.btnLogin {
+    background-color: #2678ff;
+    color: #fff;
+    width: 110px;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.mylist li {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mylist li {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.layui-nav .layui-this:after,
+.layui-nav-bar {
+
+    background-color: #2e9cfe;
+}
+
+.layui-this>a {
+    color: #2e9cfe !important;
+}
